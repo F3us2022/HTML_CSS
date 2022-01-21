@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Discription"
+      content="This will have HTML Intermediate Concept"
+    />
+    <title>HTML INTERMEDIATE</title>
+  </head>
+  <body>
+    <!--Entity And Symbols-->
+
+    <p>&cent;</p>
+    <p>3 &gt; 2</p>
+    <p>&spades;</p>
+    <p>&copy;</p>
+    <p>&reg;</p>
+
+    <br />
+
+    <!--Form,Form Attribute,Form Action,Inout Text Type,Placeholder Attribute,Radio,Value attribute-->
+    <form action="">
+      <input type="text" placeholder="First Name" />
+      <br />
+      <input type="text" placeholder="Second Name" />
+      <br />
+      <br />
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+      <input type="radio" name="gender" value="custom" checked />Custom
+
+      <!--Select,Option,Datalist Form element and Size,Multiple Attribute-->
+      <br />
+      <br />
+      <h2>SELECT OPTION</h2>
+      <select name="Month">
+        <option value="Months">Months</option>
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+        <option value="June">Jun</option>
+        <option value="July">Jul</option>
+        <option value="Aug">Aug</option>
+        <option value="Sep">Sep</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+      </select>
+
+      <br /><br />
+      <h2>DATALIST OPTION (good for searching and selecting)</h2>
+      <input list="Mnth" />
+      <datalist id="Mnth">
+        <option value="Jan"></option>
+        <option value="Feb"></option>
+        <option value="Mar"></option>
+        <option value="Apr"></option>
+        <option value="May"></option>
+        <option value="June"></option>
+        <option value="July"></option>
+        <option value="Aug"></option>
+        <option value="Sep"></option>
+        <option value="Oct"></option>
+        <option value="Nov"></option>
+        <option value="Dec"></option>
+      </datalist>
+
+      <br />
+      <br />
+      <textarea
+        name="Comment"
+        id="comment"
+        cols="30"
+        rows="10"
+        placeholder="Comment"
+      ></textarea>
+
+      <!--Input Type Submit-->
+      <br />
+      <button>Click Me</button>
+      <input type="submit" value="submit" />
+
+      <!--INPUT TYPE----- >  Number/Email/Password/Reset-->
+
+      <br />
+      <br />
+      <input type="number" name="number" id="" placeholder="number" />
+      <input type="email" name="email" id="" placeholder="email" />
+      <input type="password" name="" id="" placeholder="password" />
+      <input type="reset" value="reset" />
+
+      <!--INPUT TYPE------  > Color/File/Search/Checkbox/URL-->
+
+      <br />
+      <br />
+      <input type="color" name="color" id="" />
+      <br />
+      <input type="file" name="file" id="" />
+      <br />
+      <input type="search" name="search" id="" placeholder="Search an Item " />
+      <br />
+      <input type="checkbox" name="Apple" id="" />Apple
+      <input type="checkbox" name="Apple" id="" />Asus
+      <input type="checkbox" name="Apple" id="" />HP
+      <br />
+      <input type="url" name="Url" id="" placeholder="URL" />
+
+      <!--FORMS Attribute-------  > Value/ReadOnly/MaxLength/MinLength -->
+      <br /><br />
+      <input
+        type="text"
+        name="name"
+        id=""
+        minlength="8"
+        maxlength="12"
+        placeholder="input min 8 and max 12 character "
+      />
+
+      <br />
+      <input type="text" name="text" id="" value="Udemy" />
+      <br />
+      <input type="text" value="readonly" readonly />
+
+      <!--FORMS ATTRIBUTE---------  > Size/AutoFocus/Height-Width/Multiple/Required-->
+      <br />
+      <br />
+      <input type="text" size="12" placeholder="Name size 12" />
+      <br />
+      <input type="text" placeholder="First Name" autofocus />
+      <br />
+      <input type="file" multiple />
+      <br />
+      <input type="email" required />
+    </form>
+  </body>
+</html>
