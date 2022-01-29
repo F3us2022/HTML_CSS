@@ -1,0 +1,164 @@
+/* RGB -- > RED GREEN BLUE  (0-255) */
+
+/* .col-rgb {
+  color: rgb(100, 100, 10);
+} */
+
+/* HSL -- > Hue (0-360) Saturation (%) Lightness ()% */
+
+/* .col-hsl {
+  color: hsl(147, 50%, 50%);
+} */
+
+/* HEX -- > 00-ff ff=red ff=green ff=blue*/
+/* .col-hex {
+  color: #338866;
+} */
+
+/* RGBA -- > 'A' stands of Alpha which is for the opacity of the color and ranges from 0-1*/
+/* .col-rgba {
+  color: rgba(0, 255, 0, 0.55);
+} */
+
+/* background property */
+
+/* body {
+  background-color: rgba(10, 10, 200, 0.5);
+  background-image: url(/Images/group\ study.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+} */
+
+/* section {
+  width: 550px;
+  background-image: url(/Images/art.jpg);
+  border: green solid 2px;
+  border-radius: 5px;
+} */
+
+/*Margin*/
+
+/* section {
+  margin: 10px;
+}
+
+h2 {
+  margin: inherit;
+} */
+
+/*Padding*/
+
+/* h1 {
+  border: red solid 2px;
+}
+section {
+  border: green 2px solid;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 10px;
+} */
+
+/*TEXT SHADOW*/
+/* 
+p {
+  letter-spacing: 1.6px;
+  word-spacing: 1.2px;
+}
+
+h2 {
+  text-shadow: 2px 4 px 5px indianred;
+} */
+
+/*LINK PROPERTIES*/
+/* 
+a {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightsalmon;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 5px 5px 3px grey;
+}
+
+a:link {
+  color: limegreen;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background: cadetblue;
+}
+
+a:active {
+  box-shadow: 3px 3px 3px grey;
+} */
+
+/*-------------------------------     LIST CHALLENGE    --------------------------*/
+/* 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 200px;
+  background-color: hsl(69, 79%, 15%);
+  padding: 20px;
+}
+
+ul li {
+  margin: 7px;
+  padding: 2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgb(83, 105, 46);
+} */
+
+/*-------------------------------       TABLE CHALLENGE    ---------------------------*/
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background-color: yellowgreen;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+tr:nth-child(odd) {
+  background-color: lightsteelblue;
+}
+
+tr:nth-child(odd):hover {
+  background-color: grey;
+}
+
+tr:nth-child(even):hover {
+  background-color: white;
+}
