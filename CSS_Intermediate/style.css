@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  border: 1px solid lightslategrey;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  margin: 10px;
+  padding: 10px;
+}
+
+input:checked:hover {
+  width: 28px;
+  height: 28px;
+}
+
+input:read-only {
+  background-color: mediumaquamarine;
+}
+
+input:disabled {
+  background-color: mediumpurple;
+}
+
+input:required {
+  background-color: navajowhite;
+}
+
+input:invalid {
+  background-color: orangered;
+}
+
+input:focus {
+  background-color: peachpuff;
+  width: 300px;
+}
