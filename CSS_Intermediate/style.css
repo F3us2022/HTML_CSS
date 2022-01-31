@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-section {
+/*------------------------------------ FORM PROPERTIES -------------------------------*/
+
+/* section {
   border: 1px solid lightslategrey;
   width: 500px;
   margin-left: auto;
@@ -40,4 +42,30 @@ input:invalid {
 input:focus {
   background-color: peachpuff;
   width: 300px;
+} */
+
+/*----------------------------------------- CHILD Properties ----------------------------------*/
+
+p:only-child {
+  color: red;
+}
+
+p:only-of-type {
+  color: peru;
+}
+
+p:nth-child(5) {
+  color: green;
+}
+
+p:nth-last-child(2) {
+  color: purple;
+}
+
+p:nth-of-type(2) {
+  color: salmon;
+}
+
+p:nth-last-of-type(1) {
+  color: springgreen;
 }
