@@ -46,7 +46,7 @@ input:focus {
 
 /*----------------------------------------- CHILD Properties ----------------------------------*/
 
-p:only-child {
+/* p:only-child {
   color: red;
 }
 
@@ -68,4 +68,4 @@ p:nth-of-type(2) {
 
 p:nth-last-of-type(1) {
   color: springgreen;
-}
+} */
