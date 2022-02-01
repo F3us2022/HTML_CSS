@@ -69,3 +69,59 @@ p:nth-of-type(2) {
 p:nth-last-of-type(1) {
   color: springgreen;
 } */
+
+/*OPACITY PROPERTIES*/
+
+/* body {
+  background-color: lightcoral;
+}
+img {
+  opacity: 0.6;
+} */
+
+/* opacityTest {
+  background-color: lightcoral;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  opacity: 0.5;
+} */
+
+/* .opacityTest {
+  background-color: rgba(240, 128, 128, 0.5);
+  text-align: center;
+  height: 200px;
+  width: 200px;
+} */
+
+/*----------------------------------------------  CSS PSEUDO ELEMENT SELECTOR  ----------------------------------*/
+
+/* p::first-letter {
+  color: brown;
+  text-shadow: 3px 3px 3px grey;
+  font-weight: bold;
+  font-size: xx-large;
+} */
+
+/* p::first-line {
+  color: lightcoral;
+}
+
+p.para::first-line {
+  color: lightseagreen;
+}
+
+label::after {
+  content: "*";
+}
+label::before {
+  content: "1-";
+}
+
+:not(p.para)::selection {
+  color: lightskyblue;
+}
+
+::selection {
+  background-color: navajowhite;
+} */
