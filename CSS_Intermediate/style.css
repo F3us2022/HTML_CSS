@@ -125,3 +125,72 @@ label::before {
 ::selection {
   background-color: navajowhite;
 } */
+
+/*--------------------------------------    INSTAGRAM CHALLENGE FOR PSEUDO AFTER/BEFORE ELEMENT    --------------------*/
+
+/* section {
+  width: 40%;
+  height: 50px;
+  background-color: paleturquoise;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 12px;
+}
+
+section:before {
+  content: " ";
+  width: 100%;
+  position: absolute;
+  border: 2px solid brown;
+  top: 50%;
+  left: 0;
+}
+
+h1 {
+  background-color: paleturquoise;
+  width: auto;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0 20px;
+} */
+
+/*--------------------------------------------------  CSS PSEUDO ATTRIBUTE SELECTOR  ----------------------------------------*/
+
+/*Attribute selector*/
+/* h2[title] {
+  color: paleturquoise;
+} */
+
+/*Attribute+Value selector*/
+/* h2[title="headerValue"] {
+  color: palevioletred;
+} */
+
+/*Caret Attribute selector*/
+/* h2[class^="heading"] {
+  color: rebeccapurple;
+} */
+
+/*Pipe Attribute Selector*/
+/* h2[class|="heading"] {
+  color: tomato;
+} */
+
+/*Dollar Attribute Selector*/
+/* h2[class$="six"] {
+  color: saddlebrown;
+} */
+
+/*Asterisk Attribute Selector*/
+/* h2[class*="head "] {
+  color: seagreen;
+} */
+
+/*Squiggly Attribute Selector*/
+/* h2[class~="heading"] {
+  color: springgreen;
+} */
