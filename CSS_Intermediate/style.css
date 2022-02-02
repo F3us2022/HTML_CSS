@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -193,4 +195,74 @@ h1 {
 /*Squiggly Attribute Selector*/
 /* h2[class~="heading"] {
   color: springgreen;
+} */
+
+/*--------------------------------------------------  FORM CHALLENGE SELECTOR   ---------------------------------------------*/
+
+/* body {
+  background-color: rgba(4, 72, 99, 0.973);
+}
+
+form {
+  width: 500px;
+  margin: 30px auto 0;
+  background-color: hsl(157, 72%, 48%);
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input[type],
+select,
+textarea {
+  display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+textarea {
+  transition: all 0.35s ease-in-out;
+  width: 250px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  background-color: rgb(148, 243, 54);
+  width: 300px;
+  border: none;
+}
+
+input,
+select,
+textarea {
+  padding: 10px 30px;
+  margin: 15px 25px 0;
+  border: none;
+  border-bottom: 2px solid rgb(148, 243, 54);
+  background-color: hsl(157, 72%, 48%);
+  outline: none;
+  color: white;
+}
+
+select {
+  background-color: rgba(4, 72, 99, 0.541);
+  border: none;
+  color: white;
+}
+input[type="button"],
+input[type="reset"] {
+  width: 300px;
+  background-color: rgb(148, 243, 54);
+}
+textarea {
+  border-left: 2px solid rgb(148, 243, 54);
+}
+
+::placeholder {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
 } */
