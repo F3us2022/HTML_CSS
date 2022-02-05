@@ -266,3 +266,145 @@ textarea {
   font-weight: 600;
   letter-spacing: 2px;
 } */
+
+/*----------------------------------------------  CSS MENU DROP  -----------------------------------------*/
+
+/* html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+section {
+  margin: 1rem 0 0 1rem;
+  display: inline-block;
+}
+section > a {
+  display: inline-block;
+  background-color: rgba(188, 221, 139, 64);
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+div {
+  display: none;
+  background-color: rgb(194, 190, 190);
+  width: 100%;
+}
+
+div > a {
+  display: block;
+  padding: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+div a:hover {
+  background-color: white;
+  color: rgb(194, 190, 190);
+}
+section:hover div {
+  display: block;
+} */
+
+/*--------------------------------------------------  CSS GRADIENT  ----------------------------------------------*/
+
+/*--------------------------------------------------LINEAR GRADIENT-----------------------------------------------*/
+
+/* Linear Gradient -- by default linear gradient are top to bottom*/
+/* section {
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(green, blue);
+} */
+
+/* Linear Gradient- bottom top */
+/* section {
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(to top, green, blue);
+} */
+
+/* Linear Gradient- left to right */
+/* section {
+  height: 200px;
+  width: 300px;
+  background-image: linear-gradient(to right, green, blue);
+} */
+
+/* Linear Gradient- right to left */
+/* section {
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(to left, green, blue);
+} */
+
+/* Linear Gradient- Diagonal */
+/* section {
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(to bottom left, green, blue);
+} */
+
+/* Linear Gradient- Using Angles */
+/* section {
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(45deg, green, blue);
+} */
+
+/* Linear Gradient- COLOR STOP */
+/* section {
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(green 60%, blue);
+} */
+
+/* Linear Gradient- Transparent Gradient */
+/* section {
+  height: 200px;
+  width: 300px;
+  background: linear-gradient(yellow, hsla(120, 100%, 25%, 0.329));
+} */
+
+/* Linear Gradient- Reapeating Linear Gradient */
+/* section {
+  height: 200px;
+  width: 300px;
+  background-image: repeating-linear-gradient(
+    hsla(120, 100%, 25%, 0.329),
+    blue 20%,
+    yellow 20%
+  );
+} */
+
+/* Linear Gradient- Reapeating Linear Gradient */
+/* section {
+  height: 200px;
+  width: 300px;
+  background-image: repeating-linear-gradient(
+    to top,
+    blue 20%,
+    yellow 20%,
+    red
+  );
+} */
+
+/*--------------------------------------------------RADIAL GRADIENT-----------------------------------------------*/
+
+/* Radial Gradient */
+/* section {
+  height: 200px;
+  width: 300px;
+  background-image: radial-gradient(circle, lightseagreen, lightcoral 70%);
+} */
+
+/* Radial Gradient- Reapeating Radial Gradient */
+/* section {
+  height: 200px;
+  width: 300px;
+  background-image: repeating-radial-gradient(circle, blue 20%, yellow, red);
+} */
