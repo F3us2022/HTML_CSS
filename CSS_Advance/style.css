@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*------------------------------------------------CSS 2D TRANSFORMATION---------------------------------------------------*/
+
+section {
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
+  background-color: yellowgreen;
+}
+
+/*---------TRANSLATE X---------*/
+/* section {
+  transform: translateX(5rem);
+} */
+
+/*---------TRANSLATE Y---------*/
+/* section {
+  transform: translatey(5rem);
+} */
+
+/*---------TRANSLATE XY--------*/
+/* section {
+  transform: translate(5rem, 10rem);
+} */
+
+/*---------SCALE X-------------*/
+/* section {
+  transform: scaleX(1.5);
+} */
+
+/*---------SCALE Y-------------*/
+/* section {
+  transform: scaleY(1.3);
+} */
+
+/*---------SCALE XY------------*/
+/* section {
+  transform: scale(2, 1.5);
+} */
+
+/*--------ROTATE---------------*/
+
+/* section {
+  transform: rotate(45deg);
+} */
+
+/*---------SKEW X-------------*/
+
+/* section {
+  transform: skewX(10deg);
+} */
+
+/*---------SKEW Y-------------*/
+/* 
+section {
+  transform: skewY(10deg);
+} */
+
+/*---------SKEW XY-------------*/
+/* 
+section {
+  transform: skew(10deg, 10deg);
+} */
+
+/*--------------------------------------------------CSS 3D TRANSFORMATION-------------------------------------------------------*/
