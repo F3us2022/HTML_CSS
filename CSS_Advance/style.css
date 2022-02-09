@@ -372,3 +372,20 @@ a:hover {
     background-color: cadetblue;
   }
 } */
+
+/*----------------------------------------------CSS FUNTION VAR-------------------------------------------------------------*/
+/* :root {
+  --main-color: yellowgreen;
+  --main-font-weght: 600;
+}
+section {
+  height: 20rem;
+  width: 30rem;
+  padding: 2rem;
+  background-color: tomato;
+}
+
+p {
+  background-color: var(--main-color);
+  font-weight: var(--main-font-weght);
+} */
