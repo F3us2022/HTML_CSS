@@ -169,14 +169,14 @@ a:hover {
 
 /*----------------------------------------------------------CSS ANIMATION----------------------------------------------------------*/
 
-section {
+/* section {
   height: 20rem;
   width: 25rem;
   padding: 2rem;
   position: relative;
   animation-name: anime;
   animation-duration: 10s;
-}
+} */
 /* 
 @keyframes anime {
   from {
@@ -228,5 +228,147 @@ section {
     background-color: aquamarine;
     left: 0;
     top: 0;
+  }
+} */
+
+/*---------------------------------ANIMATION-INTERATION-COUNT -- >> animation-iteration-count can be 0 to infinite----------*/
+/* section {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: aquamarine;
+  animation-name: myanime;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+} 
+
+@keyframes myanime {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(15rem, 15rem);
+  }
+
+  50% {
+    transform: translate(30rem, 15rem);
+  }
+
+  75% {
+    transform: translate(30rem, 30rem);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+*/
+
+/*--------------------------------ANIMATION-DIRECTION -----------------------------*/
+/* section {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: aquamarine;
+  animation-name: myanime;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+}
+
+@keyframes myanime {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(15rem, 15rem);
+  }
+
+  50% {
+    transform: translate(30rem, 15rem);
+  }
+
+  75% {
+    transform: translate(30rem, 30rem);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+} */
+
+/*--------------------------------ANIMATION TIMING FUNCTION --------------------------*/
+
+/* section {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: aquamarine;
+  animation-name: myanime;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes myanime {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(15rem, 15rem);
+  }
+
+  50% {
+    transform: translate(30rem, 15rem);
+  }
+
+  75% {
+    transform: translate(30rem, 30rem);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+} */
+
+/*----------------------------------ANIMATION FILL MODE ---------------------------------------*/
+
+/* section {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: aquamarine;
+  animation-name: myanime;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-fill-mode: forwards;
+}
+
+@keyframes myanime {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(15rem, 15rem);
+  }
+
+  50% {
+    transform: translate(30rem, 15rem);
+  }
+
+  75% {
+    transform: translate(30rem, 30rem);
+  }
+
+  100% {
+    transform: translate(15rem, 15rem);
+    background-color: cadetblue;
   }
 } */
