@@ -6,12 +6,12 @@
 
 /*------------------------------------------------CSS 2D TRANSFORMATION---------------------------------------------------*/
 
-section {
+/* section {
   width: 20rem;
   height: 20rem;
   padding: 1rem;
   background-color: yellowgreen;
-}
+} */
 
 /*---------TRANSLATE X---------*/
 /* section {
@@ -68,3 +68,165 @@ section {
 } */
 
 /*--------------------------------------------------CSS 3D TRANSFORMATION-------------------------------------------------------*/
+
+/* section {
+  border: 1rem solid tomato;
+  width: 25rem;
+  perspective: 10rem;
+} */
+
+/* p {
+  height: 10rem;
+  margin: 2rem 0;
+  background-color: yellowgreen;
+  transition: all 1s ease-in-out;
+} */
+
+/* p:hover {
+  transform: rotate3d(100, 100, 100, 180deg);
+} */
+
+/* p:hover {
+  transform: rotateX(180deg);
+} */
+
+/* p:hover {
+  transform: rotateY(180deg);
+} */
+
+/* p:hover {
+  transform: rotateZ(180deg); 
+}
+*/
+
+/* p:hover {
+  transform: scaleY(1.2);
+} */
+/* 
+p:hover {
+    transform: scaleX(1.2);
+  } */
+
+/* p:hover {
+  transform: scale3d(1.2, 1.2, 1.2);
+} */
+
+/*--------------------------------------------------CSS TRANSITION-------------------------------------------------------*/
+/* 
+a {
+  display: inline-block;
+  margin-top: 2rem;
+  height: 5rem;
+  width: 10rem;
+  background-color: tomato;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  transition: background-color 1s, 0.5s color;
+  transition-delay: 2s;
+}
+
+a {
+  display: inline-block;
+  margin-top: 2rem;
+  height: 5rem;
+  width: 10rem;
+  background-color: tomato;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  transition: all 1s linear;
+}
+
+a:hover {
+  background-color: turquoise;
+  color: tomato;
+  border-radius: 3rem;
+} */
+
+/*--------------------------------------------------CSS TRANSITION USING CUBIC BEZIER----------------------------------------------*/
+
+/* img {
+  margin: 3rem;
+  height: 10rem;
+  width: 20rem;
+  transition: all 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
+
+/* img:hover {
+  transform: translateY(2rem);
+} */
+
+/* img:hover {
+  transform: scale(1.2);
+} */
+
+/* img:hover {
+  transform: rotate(180deg);
+} */
+
+/*----------------------------------------------------------CSS ANIMATION----------------------------------------------------------*/
+
+section {
+  height: 20rem;
+  width: 25rem;
+  padding: 2rem;
+  position: relative;
+  animation-name: anime;
+  animation-duration: 10s;
+}
+/* 
+@keyframes anime {
+  from {
+    background-color: tomato;
+  }
+  after {
+    background-color: turquoise;
+  }
+} */
+
+/* @keyframes anime {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  100% {
+    left: 100%;
+    top: 0;
+  }
+} */
+
+/* @keyframes anime {
+  0% {
+    background-color: thistle;
+    left: 0;
+    top: 0;
+  }
+
+  25% {
+    background-color: violet;
+    left: 20rem;
+    top: 0;
+  }
+
+  50% {
+    background-color: turquoise;
+    left: 20rem;
+    top: 20rem;
+  }
+
+  75% {
+    background-color: tomato;
+    left: 0;
+    top: 20rem;
+  }
+
+  100% {
+    background-color: aquamarine;
+    left: 0;
+    top: 0;
+  }
+} */
