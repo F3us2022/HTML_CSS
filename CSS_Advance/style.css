@@ -389,3 +389,89 @@ p {
   background-color: var(--main-color);
   font-weight: var(--main-font-weght);
 } */
+
+/*-------------------------------------------------------TOOL TIP------------------------------------------------------------*/
+
+section {
+  display: inline-block;
+  position: relative;
+  margin: 10rem;
+}
+
+/*difault positioning of tool tip*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+} */
+
+/*Tool-Tip @ TOP */
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -2rem;
+} */
+
+/*Tool tip @Bottom*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -3rem;
+} */
+
+/*Tool tip @ RIGHT*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: -30%;
+  left: 110%;
+} */
+
+/*Tool tip @LEFT*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: -30%;
+  right: 110%;
+} */
+
+/* 
+section:hover span {
+  visibility: visible;
+} */
