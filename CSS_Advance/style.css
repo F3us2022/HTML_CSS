@@ -392,11 +392,11 @@ p {
 
 /*-------------------------------------------------------TOOL TIP------------------------------------------------------------*/
 
-section {
+/* section {
   display: inline-block;
   position: relative;
   margin: 10rem;
-}
+} */
 
 /*difault positioning of tool tip*/
 /* span {
@@ -475,3 +475,131 @@ section {
 section:hover span {
   visibility: visible;
 } */
+
+/*-------------------------------------------------------DIRECTIONAL TOOL TIP------------------------------------------------------------*/
+
+section {
+  display: inline-block;
+  position: relative;
+  margin: 10rem;
+}
+
+/*difault positioning of tool tip*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+} */
+
+/*Tool-Tip @ TOP ARROW @ BOTTOM*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -2rem;
+}
+
+section span::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -0.3rem;
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: thistle transparent transparent transparent;
+} */
+
+/*Tool tip @Bottom* Arrow @ TOP*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -3rem;
+}
+
+section span::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -0.3rem;
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: transparent transparent thistle transparent;
+} */
+
+/*Tool tip @ RIGHT Arrow @ LEFT*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: -30%;
+  left: 110%;
+}
+
+section span::after {
+  content: "";
+  position: absolute;
+  border-color: transparent thistle transparent transparent;
+  right: 100%;
+  top: 50%;
+  margin-top: -0.3rem;
+  border-width: 0.4rem;
+  border-style: solid;
+} */
+
+/*Tool tip @LEFT Arrow @ RIGHT*/
+/* span {
+  visibility: hidden;
+  background-color: thistle;
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: -30%;
+  right: 110%;
+}
+
+section span::after {
+  content: "";
+  position: absolute;
+  border-color: transparent transparent transparent thistle;
+  left: 100%;
+  top: 50%;
+  margin-top: -0.3rem;
+  border-width: 0.4rem;
+  border-style: solid;
+} */
+section:hover span {
+  visibility: visible;
+}
